@@ -57,12 +57,15 @@ padding-bottom: 9px;
 
 div.hinhkhoi {
   margin-top: 100px;
-  margin-left: auto;
-  margin-right: auto;
+  position: absolute;
+  left: 118px; right: 1;
 }
 
-a.gioithieu1 {
+a.text1 {
   text-decoration: none;
+  position: absolute;
+  right: 132px;
+  top: 424px;
 }
 
 img{
@@ -76,24 +79,47 @@ img{
   height: 20px;
 }
 
-div.hinhkhoi2 {
-  margin-top: 100px;
-  margin-left: auto;
-  margin-right: auto;
+
+#hinhvuong {
+
+  width: 400px;
+  height: 500px;
+  background:#000000;
+  border-radius: 15px;
+  
 }
 
-a.gioithieu2{
+div.tin2{
+  position: absolute;
+  top: 159px;
+  left: 600px;
+}
+
+#hinhvuong2 {
+
+  width: 400px;
+  height: 500px;
+  background:#000000;
+  border-radius: 15px;
+  
+}
+
+div.tin3{
+  position: absolute;
+  top: 2px;
+  left: 475px;
+}
+
+a.text2 {
   text-decoration: none;
+  position: absolute;
+  right: 232px;
+  top: 424px;
 }
 
-div.hinhanh2{
+a.text3 {
+  text-decoration: none;
   position: absolute;
-  top: 761px;
-  left: 590px;
-}
-
-a.gioithieu2{
-  position: absolute;
-  top: 1163px;
-  left: 590px;
+  right: 132px;
+  top: 424px;
 }
