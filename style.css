@@ -92,7 +92,7 @@ img{
 div.tin2{
   position: absolute;
   top: 159px;
-  left: 600px;
+  left: 634px
 }
 
 #hinhvuong2 {
@@ -107,7 +107,7 @@ div.tin2{
 div.tin3{
   position: absolute;
   top: 2px;
-  left: 475px;
+  left: 512px;
 }
 
 a.text2 {
@@ -120,6 +120,6 @@ a.text2 {
 a.text3 {
   text-decoration: none;
   position: absolute;
-  right: 132px;
   top: 424px;
+  left: 4px;
 }
