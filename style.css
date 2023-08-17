@@ -123,3 +123,17 @@ a.text3 {
   top: 424px;
   left: 4px;
 }
+
+div.tin4{
+  position: absolute;
+  top: 545px;
+  left: -515px;
+}
+
+a.text4 {
+  text-decoration: none;
+  position: absolute;
+  top: 424px;
+  left: 4px;
+}
+
