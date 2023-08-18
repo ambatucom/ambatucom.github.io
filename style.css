@@ -59,6 +59,7 @@ div.hinhkhoi {
   margin-top: 100px;
   position: absolute;
   left: 118px; right: 1;
+  top: 573px;
 }
 
 a.text1 {
@@ -91,8 +92,9 @@ img{
 
 div.tin2{
   position: absolute;
-  top: 159px;
+  top: 676px;
   left: 634px
+  
 }
 
 #hinhvuong2 {
@@ -137,3 +139,9 @@ a.text4 {
   left: 4px;
 }
 
+video {
+  position: absolute;
+  left: 48px;
+  top: 84px;
+  border-radius: 20px;
+}
