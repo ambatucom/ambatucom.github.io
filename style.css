@@ -81,7 +81,6 @@ img{
   height: 20px;
 }
 
-
 #hinhvuong {
 
   width: 400px;
@@ -184,4 +183,23 @@ a.text4:hover{
   color: rgb(54, 52, 52);
 }
 
+div.quay{
+  border: 9px solid gray;
+  border-top-color: rgb(49, 49, 128);
+  border-right-color: rgb(191, 206, 56);
+  border-left-color: rgb(74, 180, 70);
+  border-bottom-color: rgb(196, 96, 30);
+  height: 21px;
+  width: 21px;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  position: absolute;
+  left: 1240px;
+  bottom: 740px;
 
+}
+
+@keyframes spin {
+  0% {transform: rotate(0deg);}
+  100% {transform: rotate(360deg);}
+}
