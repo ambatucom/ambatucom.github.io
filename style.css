@@ -67,6 +67,7 @@ a.text1 {
   position: absolute;
   right: 132px;
   top: 424px;
+  transition: 0.4s;
 }
 
 img{
@@ -117,6 +118,7 @@ a.text2 {
   position: absolute;
   right: 232px;
   top: 424px;
+  transition: 0.4s;
 }
 
 a.text3 {
@@ -124,6 +126,7 @@ a.text3 {
   position: absolute;
   top: 424px;
   left: 4px;
+  transition: 0.4s;
 }
 
 div.tin4{
@@ -137,6 +140,7 @@ a.text4 {
   position: absolute;
   top: 424px;
   left: 4px;
+  transition: 0.4s;
 }
 
 video {
@@ -151,6 +155,33 @@ div.logo a h3 {
   left: 67px;
   top: 0px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  transition: 0.4s;
   font-size: 41px
 
 }
+
+div.logo a h3:hover{
+  padding-left: 3px;
+}
+
+a.text1:hover{
+  padding-top: 3px;
+  color: rgb(54, 52, 52);
+}
+
+a.text2:hover{
+  padding-top: 3px;
+  color: rgb(54, 52, 52);
+}
+
+a.text3:hover{
+  padding-top: 3px;
+  color: rgb(54, 52, 52);
+}
+
+a.text4:hover{
+  padding-top: 3px;
+  color: rgb(54, 52, 52);
+}
+
+
