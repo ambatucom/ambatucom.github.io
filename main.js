@@ -1,1 +1,1 @@
-// JS included in the html file
+alert("Tôi mới học js nên làm hơi củ chuối")
