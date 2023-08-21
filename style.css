@@ -195,7 +195,7 @@ div.quay{
   animation: spin 1s linear infinite;
   position: absolute;
   left: 1240px;
-  bottom: 740px;
+  bottom: 700px;
 
 }
 
@@ -207,5 +207,5 @@ div.quay{
 p {
   position: absolute;
   left: 1336px;
-  bottom: 750px;
+  bottom: 710px;
 }
