@@ -209,3 +209,17 @@ p {
   left: 1336px;
   bottom: 710px;
 }
+
+#top-up {
+  font-size: 3rem;
+  cursor: pointer;
+  position: fixed;
+  z-index: 9999;
+  color:#48617a;
+  bottom: 20px;
+  right: 15px;
+  display: none;
+  }
+  #top-up:hover {
+  color: #333
+  }
