@@ -142,11 +142,12 @@ a.text4 {
   transition: 0.4s;
 }
 
-video {
+video.video1 {
   position: absolute;
   left: 118px;
   top: 84px;
   border-radius: 20px;
+  opacity: 0s;
 }
 div.logo a h3 {
   color: rgb(74, 117, 31);
@@ -222,4 +223,22 @@ p {
   }
   #top-up:hover {
   color: #333
+  }
+
+  video.video1:hover{
+    width: 900px;
+    transition:0.4s;
+    opacity: 0.4s;
+  }
+
+  video.video2 {
+    margin-top: 24px;
+    margin-left: 448px;
+    border-radius: 20px;
+    opacity: 0s;
+  }
+
+  video.video2:hover{
+    width: 900px;
+    transition: 0.4s;
   }
