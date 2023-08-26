@@ -242,3 +242,18 @@ p {
     width: 900px;
     transition: 0.4s;
   }
+
+  div.tin5{
+    position: absolute;
+    top: 1221px;
+    left: 634px;
+  }
+  
+  a.text5 {
+  text-decoration: none;
+  position: absolute;
+  top: 424px;
+  left: 4px;
+  transition: 0.4s;
+}
+  
