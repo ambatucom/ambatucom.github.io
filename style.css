@@ -9,7 +9,14 @@
 body {
   background-image: url(https://i.pinimg.com/736x/50/27/df/5027df66a7010cd3192d8db142b07382.jpg);
 }
-ul.menungang{
+.menungang{
+  list-style: none;
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  
+ }
+ ul.menungang{
   list-style: none;
   width: 900px;
   margin-left: auto;
@@ -45,7 +52,6 @@ padding-top: 3px;
 padding-bottom: 9px;
 
 }
-
 #square {
 
   width: 400px;
@@ -149,20 +155,6 @@ video.video1 {
   border-radius: 20px;
   opacity: 0s;
 }
-div.logo a h3 {
-  color: rgb(74, 117, 31);
-  position: absolute;
-  left: 67px;
-  top: 0px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  transition: 0.4s;
-  font-size: 41px
-
-}
-
-div.logo a h3:hover{
-  padding-left: 3px;
-}
 
 a.text1:hover{
   padding-top: 3px;
@@ -257,20 +249,49 @@ p {
   transition: 0.4s;
 }
 
-.login-button{
-  text-decoration: none;
+div.login-button{
   background-color: transparent;
   border: 1.5px solid #f2f5f7;
   border-radius: 2em;
+  padding: 0.6rem 0.8rem;
   margin-left: 2vw;
-  font-size: 0.1rem;
+  font-size: 1rem;
   cursor: pointer;
-  height: 20px;
+
 }
-.login-button:hover {
+div.login-button:hover {
   color: #131418;
   background-color: #f2f5f7;
   border:1.5px solid #f2f5f7;
   transition: all ease-in-out 350ms;
 }
+
+h1{
+  position: absolute;
+  left: 67px;
+  top: 6px;
+  color:rgb(74, 117, 31);
+  font-size: 41px;
+  font-weight: bold;
+  font-family: 'Segoe UI';
+  letter-spacing: 7px;
+  cursor: pointer
   
+}
+h1 span{
+  transition: .5s linear
+}
+h1:hover span:nth-child(1){
+  margin-right: 5px
+}
+h1:hover span:nth-child(2){
+  margin-left: 30px
+}
+h1:hover span{
+  color: #fff;
+  text-shadow: 0 0 10px #fff,
+               0 0 20px #fff, 
+               0 0 40px #fff;
+               padding-left: 3px;
+}
+
