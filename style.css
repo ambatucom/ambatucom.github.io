@@ -217,23 +217,13 @@ p {
   color: #333
   }
 
-  video.video1:hover{
-    width: 900px;
-    transition:0.4s;
-    opacity: 0.4s;
-  }
-
   video.video2 {
     margin-top: 24px;
-    margin-left: 448px;
+    margin-left: 38px;
     border-radius: 20px;
     opacity: 0s;
   }
 
-  video.video2:hover{
-    width: 900px;
-    transition: 0.4s;
-  }
 
   div.tin5{
     position: absolute;
