@@ -298,3 +298,19 @@ h1:hover span{
 img.codepro-trungthu-left{height: 198px;position:fixed;top: 65px;;left:0;width:246px;z-index:9999}
 img.codepro-trungthu-right{height:210px;position:fixed;top:0;right:0;width:243px;z-index:9999}
 img.codepro-trungthu-bottom{height:216px;position:fixed;bottom:-8px;left:0;width:404px;z-index:9999}
+
+a.homevideo1 img{
+  width: 300px;
+  border-radius: 20px;
+  height: auto;
+  margin-top: 24px;
+  margin-left: 259px;
+}
+
+a.homevideo img{
+  width: 300px;
+  border-radius: 20px;
+  height: auto;
+  margin-top: 24px;
+  margin-left: 448px;
+}
