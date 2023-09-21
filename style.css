@@ -7,7 +7,10 @@
   font-weight: 300;
 }
 body {
-  background-image: url(https://i.pinimg.com/736x/50/27/df/5027df66a7010cd3192d8db142b07382.jpg);
+  background-image: url(https://khoinguonsangtao.vn/wp-content/uploads/2022/10/hinh-anh-trung-thu-1.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 ul.menungang{
   list-style: none;
@@ -153,7 +156,7 @@ video.video1 {
   left: 118px;
   top: 84px;
   border-radius: 20px;
-  opacity: 0s;
+  width: 900px;
 }
 
 a.text1:hover{
@@ -222,6 +225,7 @@ p {
     margin-left: 38px;
     border-radius: 20px;
     opacity: 0s;
+    width: 900px;
   }
 
 
@@ -285,9 +289,7 @@ h1:hover span{
                padding-left: 3px;
 }
 
-img.codepro-trungthu-left{height: 198px;position:fixed;top: 65px;;left:0;width:246px;z-index:9999}
-img.codepro-trungthu-right{height:210px;position:fixed;top:0;right:0;width:243px;z-index:9999}
-img.codepro-trungthu-bottom{height:216px;position:fixed;bottom:-8px;left:0;width:404px;z-index:9999}
+
 
 a.homevideo1 img{
   width: 300px;
